@@ -7,7 +7,7 @@ Welcome! This guide will help you understand how to use the website and navigate
 This is a simple user management system built as a Single Page Application (SPA). It allows users to:
 - View a list of registered users
 - Create a new user
-- ✏Edit existing users
+- ✏️Edit existing users
 - 🗑Delete users
 
 ## How to Navigate the Site
