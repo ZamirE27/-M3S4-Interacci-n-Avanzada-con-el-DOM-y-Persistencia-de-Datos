@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    background-color: white;
+}
+
+body{
+    display: flex;
+    justify-content: space-around;
+}
+#content{
+    width: 70em;
+}
+.indexAside {
+    width: 20em;
+    height: 100vh;
+    
+}
+.indexAside header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+svg{
+    width: 1em;
+    height: 1em;
+    font-size: 1.5em;
+}
+.searchCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchCardUno {
+    display: flex;
+}
+.searchBtn {
+    display: flex;
+    align-items: center;
+    border: 1px solid #cfcfcf ;
+    border-radius: 5px;
+    width: 13rem;
+    padding: 0.25rem;
+}
+
+.searchB input,
+.searchB button {
+    border: none;
+    padding: 0;
+}
+#users-table {
+    background-color: #eeee;
+    height: 50%;
+    width: 70em; /* Opcional: define el ancho de la tabla */
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+    padding: 3rem;
+}
+
+tr td{
+    
+    padding: 2rem;
+    padding-left: 8px;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px; /* Espacio interno en celdas */
+    text-align: left; /* Alineación del texto */
+}
+
+#users-table th:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#users-table th:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#users-table td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#users-table td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-image: url(
+
+    );
+}
+
+#users-table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+#users-table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+.table-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-btn{
+    border: none;
+    padding: 0;
+}
+.addNewButt {
+    border-radius: 3px;
+    background-color: #6A00FE;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+}
+.createUserBtn {
+    width: 70em;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+.createUserHead{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+#create-user {
+    display: flex;
+    flex-direction: column;
+    background-color: #cfcfcf;
+    gap: 1rem;
+    border-radius: 30px;
+    padding: 1.5rem;
+    width: 40%;
+    
+}
+
+#create-user label{
+    background-color: #cfcfcf;
+    
+}
+
+#create-user input{
+    border: solid #cfcfcf;
+    height: 30px;
+}
+#create-user nav{
+    background-color: #cfcfcf;
+}
+
+#create-user button{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+#create-user button:last-child{
+    background-color: #6A00FE;
+    color: white;
+}

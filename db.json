@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "smartphone",
+      "email": "asdas@hola.com",
+      "phone": "23131223123",
+      "enroll_number": "123212",
+      "date_of_admission": "2025-07-09",
+      "id": "1e82"
+    },
+    {
+      "id": "6572",
+      "name": "smartphone",
+      "email": "sssss@121.com",
+      "phone": "45234234",
+      "enroll_number": "234234234",
+      "date_of_admission": "2025-07-14"
+    },
+    {
+      "name": "yance",
+      "email": "yan@yoooooooooo.com",
+      "phone": "131223123",
+      "enroll_number": "12313123",
+      "date_of_admission": "2025-07-11",
+      "id": "597a"
+    }
+  ]
+}
